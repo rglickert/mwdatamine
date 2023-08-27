@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Mister Whisper Data Mining</title>
+</head>
+<body>
+  <h1>Data Mining with OpenAI</h1>
+  
+  <label for="dataset">Select Dataset:</label>
+  <select id="dataset">
+    <option value="dataset1">Dataset 1</option>
+    <option value="dataset2">Dataset 2</option>
+    <!-- Add more datasets here -->
+  </select>
+  
+  <label for="model">Select OpenAI Model:</label>
+  <select id="model">
+    <option value="gpt3">GPT-3</option>
+    <option value="davinci">Davinci</option>
+    <!-- Add more models here -->
+  </select>
+  
+  <button id="start">Start Summarization</button>
+</body>
+</html>
